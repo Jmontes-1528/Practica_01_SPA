@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Cursos - Academia de Artes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>Oferta Formativa de Alta Especialización</h1>
+        <p>Aprende técnicas tradicionales y contemporáneas</p>
+        
+        <div class="panel-control">
+            <button id="btn-actualizar" type="button">Actualizar precios</button>
+            <span id="estado-api">Tipo de cambio base cargado</span>
+        </div>
+    </header>
+
+    <main class="contenedor-principal">
+        <section class="grid-cursos" id="grid-cursos">
+
+            <article class="tarjeta-curso" data-precio-mxn="2850">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80" alt="Curso de Cerámica">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">🏛️ Taller Ruiz Oaxaca</div>
+                    <h3>Cerámica de Alta Temperatura</h3>
+                    <p>Técnicas de centrado en torno, bruñido con cuarzos y quemas en hornos de leña tradicionales.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$2,850 MXN</span>
+                        <span class="precio-usd">$152.40 USD</span>
+                        <span class="precio-jpy">¥22,800 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso" data-precio-mxn="4600">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&q=80" alt="Curso de Ebanistería">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">🪵 Kanso Wood Studio</div>
+                    <h3>Ebanistería Japonesa sin Clavos</h3>
+                    <p>Geometría Sashimono, ensambles espigados de alta precisión en maderas nativas sustentables.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$4,600 MXN</span>
+                        <span class="precio-usd">$245.98 USD</span>
+                        <span class="precio-jpy">¥36,800 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso" data-precio-mxn="3200">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=600&q=80" alt="Curso de Textiles">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">🧵 Maestros de Teotitlán</div>
+                    <h3>Tintes Naturales y Telar</h3>
+                    <p>Extracción de tintes con grana cochinilla y añil silvestre sobre lana virgen en telar mesoamericano.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$3,200 MXN</span>
+                        <span class="precio-usd">$171.12 USD</span>
+                        <span class="precio-jpy">¥25,600 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso" data-precio-mxn="2400">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80" alt="Curso de Iluminación">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">🏮 Atelier Sato Kioto</div>
+                    <h3>Luminarias en Papel Washi</h3>
+                    <p>Elaboración artesanal de papel morera (Kozo) y tensado sobre estructuras curvas de bambú.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$2,400 MXN</span>
+                        <span class="precio-usd">$128.34 USD</span>
+                        <span class="precio-jpy">¥19,200 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+            <article class="tarjeta-curso" data-precio-mxn="3900">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80" alt="Curso de Cantería">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">⚒️ Canteras de Occidente</div>
+                    <h3>Cantería y Fundición en Bronce</h3>
+                    <p>Labrado en cantera porosa y técnica de fundición a la cera perdida con pátinas oxidativas.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$3,900 MXN</span>
+                        <span class="precio-usd">$208.55 USD</span>
+                        <span class="precio-jpy">¥31,200 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso" data-precio-mxn="1850">
+                <div class="contenedor-imagen">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80" alt="Curso de Curaduría">
+                </div>
+                <div class="contenido-curso">
+                    <div class="logo-institucion">📜 Instituto Transpacífico</div>
+                    <h3>Curaduría y Gestión de Arte</h3>
+                    <p>Catalogación, certificación de procedencia, conservación preventiva y museografía contemporánea.</p>
+                    
+                    <div class="precios">
+                        <span class="precio-mxn">$1,850 MXN</span>
+                        <span class="precio-usd">$98.93 USD</span>
+                        <span class="precio-jpy">¥14,800 JPY</span>
+                    </div>
+
+                    <button class="btn-inscripcion" type="button">Inscribirme al Curso</button>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
