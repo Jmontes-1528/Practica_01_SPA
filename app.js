@@ -34,7 +34,7 @@ async function actualizarTasasCambio() {
         });
 
         const fechaHora = new Date().toLocaleTimeString();
-        estadoApi.textContent = `Precios actualizados vía API REST a las ${fechaHora}`;
+        estadoApi.textContent = `Precios actualizados a las ${fechaHora}`;
 
     } catch (error) {
         console.error('Fallo la conexión con la API:', error);

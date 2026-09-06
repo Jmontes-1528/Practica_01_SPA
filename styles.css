@@ -12,6 +12,10 @@ body {
 }
 
 .encabezado {
+    background-image: url('img/header.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
     text-align: center;
     padding: 2.5rem 1rem;
     background-color: #ffffff;
